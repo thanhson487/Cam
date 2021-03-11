@@ -688,6 +688,10 @@ p {
     background: #1a202c;
     display: flex;
     align-items: center;
+    justify-content: center;
+  }
+  .main .container__left .header1 .header__menu .submit-results .submit {
+    margin-left: auto;
   }
   .main .container__right .wrap-form {
     display: grid;
@@ -755,6 +759,22 @@ p {
   .main .container .content {
     background: #e5e5e5;
     padding-left: 10px;
+  }
+  .main .container .content .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 100px;
+  }
+  .main .container .content .card .content__card .card-image {
+    height: 300px;
+    width: 281px;
+  }
+  .main .container .content .card .content__card .content__card-title {
+    width: 270px;
+    height: 144px;
+    top: 209px;
+    left: 5px;
   }
 }
 
