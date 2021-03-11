@@ -10,6 +10,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossOrigin="anonymous" />
 
     <title>DHome</title>
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -37,16 +38,38 @@
                     </div>
 
                 </nav>
-            </div>
-            <div class="container__right">
-                <nav class="header">
+                <nav class="profile-container">
+
+                    <div class="menu">
+                        <ul>
+                            <li>List your property</li>
+                            <li>Trips</li>
+                            <li>Messages</li>
+                        </ul>
+                    </div>
+                    <div class="profile">
+                        <ul>
+                            <li class="avatar-container">
+                                <div class="avatar-boder avatar-center">
+                                    <img src="./assets/avatar.png" alt="" class="image-cover avatar-image"><span class="title-profile">Son </span>
+                                </div>
+                            </li>
+                            <li class="title">Account Settings </li>
+                            <li class="title"> Support</li>
+                            <li class="title"> Sign out</li>
+                        </ul>
+
+                    </div>
+
+                </nav>
+                <nav class="header1">
                     <div class="header__form">
                         <div class="search-form"><i class="fal fa-search search-form__icon"></i><input type="text"
                                 placeholder="Search by keywords" class="search-form__input" /></div>
                         <div class="filter"><img src="./assets/icon-filter.png" alt=""><span>Filters</span></div>
                     </div>
                     <form class="header__menu">
-                        <div class="form-group">
+                        <div class="form-group" style = "margin-top:10px">
                             <div class="beadrooms customs">
                                 <p>Beadrooms</p>
                                 <div class="select-group">
@@ -155,12 +178,37 @@
                             </label>
 
                         </div>
-                        <div class = "form-group submit-results" >
-                            <div class = "submit flex">Update results</div>
+                        <div class="form-group submit-results">
+                            <div class="submit flex">Update results</div>
                         </div>
 
                     </form>
                 </nav>
+            </div>
+            <div class="container__right">
+                <div class="wrap-form">
+
+                    <div class="header__form">
+                        <div class="search-form"><i class="fal fa-search search-form__icon"></i><input type="text"
+                                placeholder="Search by keywords" class="search-form__input" /></div>
+
+                    </div>
+                    <div class="header-form">
+                        <ul>
+                            <li>List your property</li>
+                            <li>Trips</li>
+                            <li>Messages</li>
+                            <li class="support">Support</li>
+                            <li class="avatar">
+                                <div class="avatar-boder avatar-center">
+                                    <img src="./assets/avatar.png" alt="" class="image-cover avatar-image">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
                 <main class="content">
 
                     <div class="content__title">
@@ -230,6 +278,67 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="content__card">
+                            <img src="./assets/image_home.png" alt="" class="card-image">
+                            <div class="content__card-title">
+                                <div class="title-bed">
+                                    <p class="bed-plus">Plus</p>
+
+                                    <p class="bed-name">3 Bed • 2 Baths</p>
+
+                                </div>
+                                <div class="title-name">
+                                    Modern home in city center
+                                </div>
+                                <div class="title-price">
+                                    $1,400 /wk
+                                </div>
+                                <div class="title-review">
+                                    <img src="./assets/review.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="./assets/image_home.png" alt="" class="card-image">
+                            <div class="content__card-title">
+                                <div class="title-bed">
+                                    <p class="bed-plus">Plus</p>
+
+                                    <p class="bed-name">3 Bed • 2 Baths</p>
+
+                                </div>
+                                <div class="title-name">
+                                    Modern home in city center
+                                </div>
+                                <div class="title-price">
+                                    $1,400 /wk
+                                </div>
+                                <div class="title-review">
+                                    <img src="./assets/review.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__card">
+                            <img src="./assets/image_home.png" alt="" class="card-image">
+                            <div class="content__card-title">
+                                <div class="title-bed">
+                                    <p class="bed-plus">Plus</p>
+
+                                    <p class="bed-name">3 Bed • 2 Baths</p>
+
+                                </div>
+                                <div class="title-name">
+                                    Modern home in city center
+                                </div>
+                                <div class="title-price">
+                                    $1,400 /wk
+                                </div>
+                                <div class="title-review">
+                                    <img src="./assets/review.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
 
@@ -238,5 +347,7 @@
         </div>
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./cam.js"></script>
 
 </html>
